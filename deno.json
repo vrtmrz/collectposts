@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "collect": "deno run -A --env=.env collectposts.ts"
+  },
+  "imports": {
+    "nostr-fetch": "npm:nostr-fetch@^0.17.0",
+    "ws": "npm:ws@^8.18.1"
+  }
+}
